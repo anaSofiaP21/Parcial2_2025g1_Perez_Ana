@@ -1,0 +1,90 @@
+:root {
+            --primary-color: #0891b2;
+            --secondary-color: #d97706;
+            --accent-color: #f59e0b;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #0e7490;
+            border-color: #0e7490;
+        }
+        
+        .content-section {
+            padding: 100px 0 50px;
+        }
+        
+        .article-header {
+            background: linear-gradient(135deg, rgba(8, 145, 178, 0.1) 0%, rgba(248, 250, 252, 1) 100%);
+            padding: 60px 0;
+            margin-top: 76px;
+        }
+        
+        .article-icon {
+            width: 80px;
+            height: 80px;
+            background-color: rgba(8, 145, 178, 0.1);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .content-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .intro-card {
+            background: rgba(8, 145, 178, 0.05);
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .conclusion-card {
+            background: rgba(217, 119, 6, 0.05);
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+       .footer {
+    padding: 0%;
+    height: 280px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
+}
+
+.resource-card .btn-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.resource-card .btn-link:hover {
+    color: var(--secondary-color);
+}

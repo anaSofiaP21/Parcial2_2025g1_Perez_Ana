@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Únete a la Comunidad</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../contacto/estilo9.css" />
+    
+   
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <i class="bi bi-code-slash me-2"></i>CoderHub
+            </a>
+            <button class="btn btn-outline-light" onclick="window.location.href='../../index.html'">
+                <i class="bi bi-arrow-left me-2"></i>Volver al Inicio
+            </button>
+        </div>
+    </nav>
+
+    <section class="py-5" style="margin-top: 80px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center mb-5" data-aos="fade-up">
+                        <h1 class="display-4 fw-bold mb-4">
+                            Únete a Nuestra <span style="color: var(--primary-color);">Comunidad</span>
+                        </h1>
+                        <p class="lead text-muted">
+                            Conecta con más de 15,000 desarrolladores, comparte conocimientos y acelera tu crecimiento profesional
+                        </p>
+                    </div>
+                    
+                    <div class="row">
+                        <!-- Registration Form -->
+                        <div class="col-lg-6" data-aos="fade-right">
+                            <div class="registration-form p-5">
+                                <h3 class="mb-4">Crear Cuenta</h3>
+                                <form id="registrationForm">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="firstName" class="form-label">Nombre *</label>
+                                            <input type="text" class="form-control" id="firstName" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="lastName" class="form-label">Apellido *</label>
+                                            <input type="text" class="form-control" id="lastName" required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Contraseña *</label>
+                                        <input type="password" class="form-control" id="password" required>
+                                        <div class="form-text">Mínimo 8 caracteres</div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="experience" class="form-label">Nivel de Experiencia</label>
+                                        <select class="form-select" id="experience">
+                                            <option value="">Selecciona tu nivel</option>
+                                            <option value="beginner">Principiante</option>
+                                            <option value="intermediate">Intermedio</option>
+                                            <option value="advanced">Avanzado</option>
+                                            <option value="expert">Experto</option>
+                                        </select>
+                                    </div>
+                                           
+                                    
+                                    <div class="mb-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="terms" required>
+                                            <label class="form-check-label" for="terms">
+                                                Acepto los <a href="#" style="color: var(--primary-color);">términos y condiciones</a> y la <a href="#" style="color: var(--primary-color);">política de privacidad</a>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="newsletter">
+                                            <label class="form-check-label" for="newsletter">
+                                                Quiero recibir noticias y actualizaciones por email
+                                            </label>
+                                        </div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary w-100 btn-lg">
+                                        Crear Cuenta <i class="bi bi-arrow-right ms-2"></i>
+                                    </button>
+                                </form>
+                                
+                                <div class="text-center mt-4">
+                                    <p class="text-muted">¿Ya tienes cuenta? <a href="#" style="color: var(--primary-color);">Inicia sesión aquí</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="mb-4">
+                        <h4 class="fw-bold mb-4">Información de Contacto</h4>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                                <i class="bi bi-geo-alt text-primary"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Dirección</h6>
+                                <p class="text-muted mb-0">trasversal 6f, Florencia, Colombia</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                                <i class="bi bi-telephone text-primary"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Teléfono</h6>
+                                <p class="text-muted mb-0">+57 321 9445 622</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
+                                <i class="bi bi-envelope text-primary"></i>
+                            </div>
+                            <div>
+                                <h6 class="fw-semibold mb-1">Email</h6>
+                                <p class="text-muted mb-0">contacto@coderhub.run</p>
+                            </div>
+                        </div>
+                    </div>
+                                   
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <iframe 
+                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.5619816228826!2d-75.60873542502627!3d1.6143807984262996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e244e774b123c8b%3A0x8c0fbcbb4cf01ed4!2sParque%20Santander%2C%20Florencia%2C%20Caquet%C3%A1!5e0!3m2!1ses!2sco!4v1726493256789!5m2!1ses!2sco"
+    
+                                width="100%" 
+                                height="300" 
+                                style="border:0; border-radius: 0.375rem;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer class="footer section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-code-slash me-2 fs-3 text-white"></i>
+                        <span class="fs-3 fw-bold text-white">CoderHub</span>
+                    </div>
+                    <p class="text-white-50 mb-4">
+                        Casa de desarrollo de software innovadora y confiable. 
+                        Transformamos ideas en soluciones tecnológicas exitosas.
+                    </p>
+                    
+                    <div class="d-flex gap-3">
+                        <a href="https://www.linkedin.com/company/coderhub" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-linkedin text-white"></i>
+                        </a>
+                        <a href="https://www.facebook.com/coderhubchile" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-facebook text-white"></i>
+                        </a>
+                        <a href="https://www.instagram.com/codeandsecure_hub?igsh=MTliNThnMjdnNXBkeA==" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="mb-3 text-white">Servicios</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">JavaScript Fundamentals</a></li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">React Development</a></li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">Node.js Backend</a></li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">Python Data Science</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="mb-3 text-white">Empresa</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#nosotros" class="text-white-50 text-decoration-none">Nosotros</a></li>
+                        <li><a href="#portafolio" class="text-white-50 text-decoration-none">Portafolio</a></li>
+                        <li><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4 col-lg-4">
+                    <h5 class="mb-3 text-white">Contacto</h5>
+                    <div class="text-white-50">
+                        <p class="mb-2">
+                            <i class="bi bi-telephone me-2"></i>
+                            +57 321 9445 622
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-envelope me-2"></i>
+                            contacto@coderhub.run
+                        </p>
+                        <p class="mb-0">
+                            <i class="bi bi-geo-alt me-2"></i>
+                            Florencia, Colombia
+                        </p>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="text-center text-white-50">
+                <p>&copy; 2025 CoderHub. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out',
+            once: true
+        });
+        
+        // Form submission handler
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simple validation
+            if (!data.firstName || !data.lastName || !data.email || !data.password) {
+                alert('Por favor completa todos los campos obligatorios');
+                return;
+            }
+            
+            if (data.password.length < 8) {
+                alert('La contraseña debe tener al menos 8 caracteres');
+                return;
+            }
+            
+            // Simulate registration success
+            alert('¡Registro exitoso! Te hemos enviado un email de confirmación.');
+            
+            // Redirect to main page after 2 seconds
+            setTimeout(() => {
+                window.location.href = '../index.html';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderHub </title>
+
+    <link rel="icon" type="image/png" href="../public/icono.jpg"> 
+    <link rel="apple-touch-icon" href="../public/icono.jpg">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilo.css" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <i class="bi bi-code-slash me-2"></i>CoderHub
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologia">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comunidad">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h1 class="display-3 fw-bold mb-4">
+                        Desarrollamos <span class="text-primary-custom">Software</span>
+                        <span class="text-secondary-custom">Innovador</span>
+                    </h1>
+                    <p class="lead mb-4 text-muted">
+                        CoderHub es una casa de desarrollo de software que busca posicionarse como una
+                        marca innovadora y confiable en el mercado tecnológico.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <a href="#comunidad" class="btn btn-primary btn-lg">
+                            Contáctanos <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#servicios" class="btn btn-outline-primary btn-lg">
+                            Nuestros Servicios
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="position-relative">
+                        <video class="img-fluid rounded shadow-lg" autoplay muted loop playsinline
+                            style="height:400px; object-fit:cover; width:100%;">
+                            <source src="video/video.mp4.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="stats-card">
+                            <div class="d-flex align-items-center">
+                                <div class="pulse-dot me-2"></div>
+                                <small class="fw-semibold">Siempre estamos activos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="nosotros" class="section-padding bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-4">Nosotros</h2>
+                <p class="lead text-muted">
+                    Conoce nuestra historia, misión y el equipo que hace posible la innovación.
+                </p>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="fw-bold mb-4">Nuestra Historia</h3>
+                    <p class="text-muted mb-4">
+                        CoderHub nació en 2020 con la visión de democratizar el desarrollo de software.
+                        Comenzamos como un pequeño equipo de desarrolladores apasionados por crear soluciones
+                        tecnológicas que realmente impacten en la vida de las personas.
+                    </p>
+                    <p class="text-muted">
+                        Hoy somos una casa de desarrollo reconocida por nuestra innovación, calidad y
+                        compromiso con nuestros clientes, habiendo completado más de 200 proyectos exitosos.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="../public/modern-coding-workspace-with-multiple-monitors.jpg" alt="Nuestro workspace"
+                        class="img-fluid rounded shadow-lg" style="height: 320px; width: 450px;">
+                </div>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 text-center p-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle mx-auto mb-3"
+                            style="width: 80px; height: 80px;">
+                            <i class="bi bi-bullseye text-primary fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Misión</h5>
+                        <p class="text-muted">
+                            Desarrollar software innovador y confiable que transforme ideas en soluciones
+                            tecnológicas exitosas, superando las expectativas de nuestros clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 text-center p-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle mx-auto mb-3"
+                            style="width: 80px; height: 80px;">
+                            <i class="bi bi-eye text-primary fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Visión</h5>
+                        <p class="text-muted">
+                            Ser la casa de desarrollo de software líder en innovación tecnológica,
+                            reconocida por crear soluciones que impulsan el crecimiento de nuestros clientes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 text-center p-4">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle mx-auto mb-3"
+                            style="width: 80px; height: 80px;">
+                            <i class="bi bi-heart text-primary fs-2"></i>
+                        </div>
+                        <h5 class="fw-bold mb-3">Valores</h5>
+                        <p class="text-muted">
+                            Innovación, calidad, transparencia, trabajo en equipo y compromiso con
+                            la excelencia en cada proyecto que desarrollamos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-4">
+                <h3 class="fw-bold mb-4">Nuestro Equipo</h3>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card text-center">
+                        <img src="../public/professional-male-developer.jpg" class="card-img-top" alt="Carlos Mendoza"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Carlos Mendoza</h5>
+                            <p class="text-primary fw-semibold">CEO & Fundador</p>
+                            <p class="card-text text-muted">
+                                Ingeniero en Sistemas con 10+ años de experiencia. Especialista en arquitectura
+                                de software y liderazgo de equipos tecnológicos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card text-center">
+                        <img src="../public/professional-female-developer.jpg" class="card-img-top" alt="Ana Rodríguez"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Ana Perez</h5>
+                            <p class="text-primary fw-semibold">CTO</p>
+                            <p class="card-text text-muted">
+                                Experta en desarrollo full-stack y DevOps. Lidera la innovación tecnológica
+                                y asegura la calidad en todos nuestros proyectos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card text-center">
+                        <img src="../public/pers.jpg" class="card-img-top" alt="Miguel Torres"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Miguel Torres</h5>
+                            <p class="text-primary fw-semibold">Lead Developer</p>
+                            <p class="card-text text-muted">
+                                Desarrollador senior especializado en React, Node.js y arquitecturas cloud.
+                                Mentor del equipo y experto en mejores prácticas de desarrollo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="servicios" class="section-padding bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-4">Servicios Destacados</h2>
+                <p class="lead text-muted">
+                    Aprende las tecnologías más demandadas del mercado con proyectos reales
+                    y mentores expertos de la industria.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="position-relative">
+                            <img src="../public/javascript-code-editor.png" class="card-img-top" alt="JavaScript Course"
+                                style="height:261px;">
+                            <span class="badge bg-warning position-absolute top-0 start-0 m-3">Principiante</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Fundamentals</h5>
+                            <p class="card-text text-muted">Aprende los conceptos básicos de JavaScript desde cero</p>
+                            <div class="d-flex justify-content-between text-muted small mb-3">
+                                <span><i class="bi bi-clock me-1"></i>8 semanas</span>
+                                <span><i class="bi bi-people me-1"></i>1,250</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <span class="fw-semibold">4.8</span>
+                            </div>
+
+                            <button class="btn btn-primary w-100"
+                                onclick="window.location.href='app/servicios/curso-javascript.html'">
+                                Ver Curso
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100">
+                        <div class="position-relative">
+                            <img src="../public/react-components-interface.jpg" class="card-img-top" alt="React Course">
+                            <span class="badge bg-info position-absolute top-0 start-0 m-3">Intermedio</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">React Development</h5>
+                            <p class="card-text text-muted">Construye aplicaciones web modernas con React</p>
+                            <div class="d-flex justify-content-between text-muted small mb-3">
+                                <span><i class="bi bi-clock me-1"></i>12 semanas</span>
+                                <span><i class="bi bi-people me-1"></i>890</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <span class="fw-semibold">4.9</span>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="window.location.href='app/servicios/curso-react.html'">Ver
+                                Curso</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100">
+                        <div class="position-relative">
+                            <img src="../public/node.jpg" class="card-img-top" alt="Node.js Course"
+                                style="height:261px;">
+                            <span class="badge bg-info position-absolute top-0 start-0 m-3">Intermedio</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Node.js Backend</h5>
+                            <p class="card-text text-muted">Desarrollo de APIs y servidores con Node.js</p>
+                            <div class="d-flex justify-content-between text-muted small mb-3">
+                                <span><i class="bi bi-clock me-1"></i>10 semanas</span>
+                                <span><i class="bi bi-people me-1"></i>675</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <span class="fw-semibold">4.7</span>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="window.location.href='app/servicios/curso-nodejs.html'">Ver
+                                Curso</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100">
+                        <div class="position-relative">
+                            <img src="../public/python.jpg" class="card-img-top" alt="Python Course"
+                                style="height:261px;">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-3">Avanzado</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Python Data Science</h5>
+                            <p class="card-text text-muted">Análisis de datos y machine learning con Python</p>
+                            <div class="d-flex justify-content-between text-muted small mb-3">
+                                <span><i class="bi bi-clock me-1"></i>16 semanas</span>
+                                <span><i class="bi bi-people me-1"></i>543</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-star-fill text-warning me-1"></i>
+                                <span class="fw-semibold">4.9</span>
+                            </div>
+                            <button class="btn btn-primary w-100" onclick="window.location.href='app/servicios/curso-python.html'">Ver
+                                Curso</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="tecnologia" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-4">Tecnologías que Enseñamos</h2>
+                <p class="lead text-muted">
+                    Domina las herramientas y lenguajes más utilizados en la industria tecnológica actual.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-javascript">
+                            <i class="bi bi-filetype-js"></i>
+                        </div>
+                        <h6 class="fw-semibold">JavaScript</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-react">
+                            <i class="bi bi-bootstrap"></i>
+                        </div>
+                        <h6 class="fw-semibold">React</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-nodejs">
+                            <i class="bi bi-server"></i>
+                        </div>
+                        <h6 class="fw-semibold">Node.js</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-python">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+                        <h6 class="fw-semibold">Python</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-mobile">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h6 class="fw-semibold">Mobile Dev</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="card text-center p-4">
+                        <div class="tech-icon bg-devops">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h6 class="fw-semibold">DevOps</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portafolio" class="section-padding bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-4">Nuestro Portafolio</h2>
+                <p class="lead text-muted">
+                    Accede a una biblioteca completa de artículos, videos y herramientas para acelerar tu aprendizaje.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card resource-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="bi bi-book text-primary fs-4"></i>
+                                </div>
+                                <span class="badge bg-secondary">Artículo</span>
+                            </div>
+                            <h5 class="card-title">Las mejores prácticas en desarrollo web 2025</h5>
+                            <p class="card-text text-muted">Guía completa sobre las tendencias actuales</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="bi bi-clock me-1"></i>8 min</small>
+                                <a href="app/portafolio/recurso-practicas.html" class="btn-link">
+                                    Leer más <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card resource-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="bi bi-play-circle text-primary fs-4"></i>
+                                </div>
+                                <span class="badge bg-secondary">Video</span>
+                            </div>
+                            <h5 class="card-title">Tutorial: Construyendo tu primera API REST</h5>
+                            <p class="card-text text-muted">Paso a paso para crear una API profesional</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="bi bi-clock me-1"></i>45 min</small>
+                                <a href="app/portafolio/recurso-api.html" class="btn-link">
+                                    Leer más <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card resource-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="bi bi-code-slash text-primary fs-4"></i>
+                                </div>
+                                <span class="badge bg-secondary">Herramienta</span>
+                            </div>
+                            <h5 class="card-title">Code Playground Interactivo</h5>
+                            <p class="card-text text-muted">Practica código en tiempo real</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="bi bi-clock me-1"></i>Interactivo</small>
+                                <a href="app/portafolio/recurso-playground.html" class="btn-link">
+                                    Leer más <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card resource-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                    <i class="bi bi-arrow-right text-primary fs-4"></i>
+                                </div>
+                                <span class="badge bg-secondary">Guía</span>
+                            </div>
+                            <h5 class="card-title">Roadmap del Desarrollador Full Stack</h5>
+                            <p class="card-text text-muted">Tu camino hacia el desarrollo completo</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted"><i class="bi bi-clock me-1"></i>15 min</small>
+                                <a href="app/portafolio/recurso-roadmap.html" class="btn-link">
+                                    Leer más <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="comunidad" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Únete a Nuestra <span class="text-primary-custom">Comunidad</span>
+                    </h2>
+                    <p class="lead text-muted mb-4">
+                        Conecta con otros desarrolladores, comparte proyectos, resuelve dudas y crece
+                        profesionalmente en un ambiente colaborativo y de apoyo mutuo.
+                    </p>
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3">
+                                <i class="bi bi-people text-primary"></i>
+                            </div>
+                            <span>Más de 15,000 miembros activos</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3">
+                                <i class="bi bi-book text-primary"></i>
+                            </div>
+                            <span>Proyectos colaborativos semanales</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded-circle me-3">
+                                <i class="bi bi-award text-primary"></i>
+                            </div>
+                            <span>Mentorías personalizadas</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-lg"
+                        style="background-color: var(--secondary-color); border-color: var(--secondary-color); color: white;"
+                        onclick="window.location.href='app/contacto/registro-comunidad.html'">
+                        Unirse Ahora <i class="bi bi-people ms-2"></i>
+                    </button>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="public/diverse-group-of-programmers-collaborating-on-lapt.jpg"
+                        alt="Comunidad de programadores" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-code-slash me-2 fs-3 text-white"></i>
+                        <span class="fs-3 fw-bold text-white">CoderHub</span>
+                    </div>
+                    <p class="text-white-50 mb-4">
+                        Casa de desarrollo de software innovadora y confiable.
+                        Transformamos ideas en soluciones tecnológicas exitosas.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="https://www.linkedin.com/company/coderhub" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-linkedin text-white"></i>
+                        </a>
+                        <a href="https://www.facebook.com/coderhubchile" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-facebook text-white"></i>
+                        </a>
+                        <a href="https://www.instagram.com/codeandsecure_hub?igsh=MTliNThnMjdnNXBkeA==" target="_blank"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 45px; height: 45px;">
+                            <i class="bi bi-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="mb-3 text-white">Servicios</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">JavaScript Fundamentals</a>
+                        </li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">React Development</a></li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">Node.js Backend</a></li>
+                        <li><a href="#servicios" class="text-white-50 text-decoration-none">Python Data Science</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="mb-3 text-white">Empresa</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#nosotros" class="text-white-50 text-decoration-none">Nosotros</a></li>
+                        <li><a href="#portafolio" class="text-white-50 text-decoration-none">Portafolio</a></li>
+                        <li><a href="#contacto" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <h5 class="mb-3 text-white">Contacto</h5>
+                    <div class="text-white-50">
+                        <p class="mb-2">
+                            <i class="bi bi-telephone me-2"></i>
+                            +57 321 9445 622
+                        </p>
+                        <p class="mb-2">
+                            <i class="bi bi-envelope me-2"></i>
+                            contacto@coderhub.run
+                        </p>
+                        <p class="mb-0">
+                            <i class="bi bi-geo-alt me-2"></i>
+                            Florencia, Colombia
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center text-white-50">
+                <p>&copy; 2025 CoderHub. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out',
+            once: true
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation indicator
+        window.addEventListener('scroll', function () {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active-indicator');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active-indicator');
+                }
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>
